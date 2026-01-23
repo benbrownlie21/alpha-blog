@@ -9,6 +9,7 @@
 <body>
     <h1>Alpha-Blog</h1>
     <h2>Welcome to the home of Alpha-Blog</h2>
-    <a href="/about" target="_self" class="button">About</a>
+    <%= link_to "Articles Listing", articles_path, method: :get %>
+    <%= link_to "About Us", about_path, method: :get %>
 </body>
 </html>
