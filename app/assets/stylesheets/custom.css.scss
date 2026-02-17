@@ -6,6 +6,10 @@
     color: white !important;
 }
 
+.nav-brand {
+    text-decoration: none;
+}
+
 #logo {
     float: left;
     font-size: 1.7em;
@@ -25,4 +29,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 425px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: lightgray;
 }
